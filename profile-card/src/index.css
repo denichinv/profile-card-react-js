@@ -1,0 +1,62 @@
+body {
+  background-color: rgb(220, 205, 205);
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App {
+  text-align: center;
+  width: 100%;
+}
+
+.profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.profile-card {
+  background-color: whitesmoke;
+  border: 2px lightblue solid;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  width: 300px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.profile-card:hover {
+  transform: scale(1.05);
+}
+
+.profile-image {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.profile-details {
+  padding: 20px;
+  text-align: left;
+}
+h1 {text-align: center;
+      font-size: 3em;
+    text-decoration: underline 3px;
+  font-weight: 200;}
