@@ -6,7 +6,7 @@ const App = () => {
   const profiles = [
     {
       image:
-        'https://headshots-inc.com/wp-content/uploads/2021/01/FINAL-Blog-Images.jpg',
+        'https://cdn.continental.com/fileadmin/__imported/sites/corporate/_international/german/hubpages/10_20presse/04_mediathek/vorstand_20_28de_29/philip-nelles.jpg',
       name: 'John Doe',
       jobTitle: 'Frontend Developer',
       bio: 'Passionate about creating user-friendly web applications.',
@@ -21,15 +21,15 @@ const App = () => {
     },
     {
       image:
-        'https://as2.ftcdn.net/v2/jpg/03/64/21/11/1000_F_364211147_1qgLVxv1Tcq0Ohz3FawUfrtONzz8nq3e.jpg',
+        'https://st2.depositphotos.com/1715570/5435/i/450/depositphotos_54357355-stock-photo-handsome-young-black-man-smiling.jpg',
       name: 'Mike Johnson',
       jobTitle: 'Backend Engineer',
       bio: 'Building robust and scalable server-side solutions.',
     },
   ];
-  return (
+  return (<>
+      <h1 className='header'>Team Profiles</h1><hr />
     <div className="app">
-      <h1>Team Profiles</h1>
       <div className="profiles-container">
         {profiles.map((profile, index) => (
           <ProfileCard
@@ -41,7 +41,7 @@ const App = () => {
           />
         ))}
       </div>
-    </div>
+    </div></>
   );
 };
 
