@@ -1,0 +1,50 @@
+@media (max-width: 600px) {
+  .profile-card {
+    max-width: 100%;
+    padding: 15px;
+    font-size: 1rem;
+  }
+
+  .profile-image {
+    max-width: 120px;
+    height: 120px;
+  }
+
+  .header {
+    font-size: 4em;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+  .profile-card {
+    max-width: 90%;
+    padding: 20px;
+    font-size: 1.1rem;
+  }
+
+  .profile-image {
+    max-width: 130px;
+    height: 130px;
+  }
+
+  .header {
+    font-size: 5em;
+  }
+}
+
+@media (min-width: 1025px) {
+  .profile-card {
+    max-width: 280px;
+    padding: 25px;
+    font-size: 1.2rem;
+  }
+
+  .profile-image {
+    max-width: 150px;
+    height: 150px;
+  }
+
+  .header {
+    font-size: 7em;
+  }
+}

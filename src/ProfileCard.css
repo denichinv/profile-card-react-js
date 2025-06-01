@@ -13,10 +13,11 @@
   display: inline-block;
   background: white;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  color: #242424;
 }
 
 .profile-card h2 {
-  margin:0px;
+  margin: 0px;
   font-size: 1.9em;
   font-family: monospace;
 }
@@ -34,7 +35,7 @@
   transition: border 0.3s ease;
 }
 
-.app{
+.app {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -48,8 +49,57 @@
   font-family: monospace;
   font-size: 7em;
 
-color: transparent;
-  -webkit-text-stroke:3px #242424;;
+  color: transparent;
+  -webkit-text-stroke: 3px #242424;
 }
 
+@media (max-width: 600px) {
+  .profile-card {
+    max-width: 100%;
+    padding: 15px;
+    font-size: 1rem;
+  }
 
+  .profile-image {
+    max-width: 120px;
+    height: 120px;
+  }
+
+  .header {
+    font-size: 4em;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+  .profile-card {
+    max-width: 90%;
+    padding: 20px;
+    font-size: 1.1rem;
+  }
+
+  .profile-image {
+    max-width: 130px;
+    height: 130px;
+  }
+
+  .header {
+    font-size: 5em;
+  }
+}
+
+@media (min-width: 1025px) {
+  .profile-card {
+    max-width: 280px;
+    padding: 25px;
+    font-size: 1.2rem;
+  }
+
+  .profile-image {
+    max-width: 150px;
+    height: 150px;
+  }
+
+  .header {
+    font-size: 7em;
+  }
+}
