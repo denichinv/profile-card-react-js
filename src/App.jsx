@@ -1,5 +1,6 @@
 import React from "react";
 import ProfileCard from "./ProfileCard";
+import "./mediaQueries.css";
 
 const App = () => {
   const profiles = [
