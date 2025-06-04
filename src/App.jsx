@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import ProfileCard from "./ProfileCard";
 import "./mediaQueries.css";
 
@@ -33,8 +33,23 @@ const App = () => {
       github: "https://www.github.com/mikejohnson",
     },
   ];
+
+  const [theme, setTheme] = React.useState("light");
+
+  useEffect(() => {
+    document.body.classList.remove("dark-theme", "light-theme");
+    document.body.classList.add(`${theme}-theme`);
+  }, [theme]);
+
+  const toggleTheme = () => {
+    setTheme((prevTheme) => (prevTheme === "light" ? "dark" : "light"));
+  };
+
   return (
     <>
+      <button onClick={toggleTheme} className="theme-toggle-btn">
+        Toggle {theme === "light" ? "Dark" : "Light"} Mode
+      </button>
       <h1 className="header">Team Profiles</h1>
       <hr />
       <div className="app">

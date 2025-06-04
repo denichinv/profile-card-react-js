@@ -11,9 +11,8 @@
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.2rem;
   display: inline-block;
-  background: white;
+
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  color: #242424;
 }
 
 .profile-card h2 {
@@ -39,32 +38,6 @@
   border-color: hsl(0, 0%, 80%);
   transform: scale(1.05);
   box-shadow: 0px 0px 10px hsla(0, 0%, 0%, 0.1);
-}
-
-.app {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
-  padding: 20px;
-  min-height: 100vh;
-}
-
-.header {
-  text-align: center;
-  font-family: monospace;
-  font-size: 7em;
-
-  color: transparent;
-  -webkit-text-stroke: 3px #242424;
-}
-
-.header:hover {
-  color: #242424;
-
-  -webkit-text-stroke: 0px;
-
-  transition: color 0.8s ease, -webkit-text-stroke 0.8s ease;
 }
 
 .social-icon {
