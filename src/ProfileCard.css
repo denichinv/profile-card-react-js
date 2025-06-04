@@ -66,3 +66,18 @@
 
   transition: color 0.8s ease, -webkit-text-stroke 0.8s ease;
 }
+
+.social-icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: inline-flex;
+
+  margin: 0 5px;
+  background-color: hsl(210, 40%, 98%);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.social-icon:hover {
+  background-color: hsl(210, 40%, 90%);
+  transform: scale(1.1);
+}

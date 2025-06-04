@@ -10,6 +10,8 @@ const App = () => {
       name: "John Doe",
       jobTitle: "Frontend Developer",
       bio: "Passionate about creating user-friendly web applications.",
+      linkedin: "https://www.linkedin.com/in/johndoe",
+      github: "https://www.github.com/johndoe",
     },
 
     {
@@ -18,6 +20,8 @@ const App = () => {
       name: "Jane Smith",
       jobTitle: "UX Designer",
       bio: "Creating intuitive and engaging user experiences.",
+      linkedin: "https://www.linkedin.com/in/janesmith",
+      github: "https://www.github.com/janesmith",
     },
     {
       image:
@@ -25,6 +29,8 @@ const App = () => {
       name: "Mike Johnson",
       jobTitle: "Backend Engineer",
       bio: "Building robust and scalable server-side solutions.",
+      linkedin: "https://www.linkedin.com/in/mikejohnson",
+      github: "https://www.github.com/mikejohnson",
     },
   ];
   return (
@@ -40,6 +46,8 @@ const App = () => {
               name={profile.name}
               jobTitle={profile.jobTitle}
               bio={profile.bio}
+              linkedin={profile.linkedin}
+              github={profile.github}
             />
           ))}
         </div>
