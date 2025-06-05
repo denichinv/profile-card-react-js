@@ -34,6 +34,7 @@ const App = () => {
               bio={profile.bio}
               linkedin={profile.linkedin}
               github={profile.github}
+              style={{ animationDelay: `${index * 0.2}s` }}
             />
           ))}
         </div>

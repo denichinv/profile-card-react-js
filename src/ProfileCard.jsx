@@ -1,9 +1,17 @@
 import React from "react";
 import "./ProfileCard.css";
 
-const ProfileCard = ({ image, name, jobTitle, bio, linkedin, github }) => {
+const ProfileCard = ({
+  image,
+  name,
+  jobTitle,
+  bio,
+  linkedin,
+  github,
+  style,
+}) => {
   return (
-    <div className="profile-card">
+    <div className="profile-card" style={style}>
       <img src={image} alt={`${name}'s profile`} className="profile-image" />
       <div className="profile-details">
         <h2>{name}</h2>
