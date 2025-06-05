@@ -1,12 +1,36 @@
-# React + Vite
+# 🧑‍💻 Profile Card Showcase
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive React app that displays team member profiles in styled cards with light/dark mode and animated transitions.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Responsive layout for mobile, tablet, and desktop
+- Light/Dark mode toggle 🌗
+- Hover effects on profile images
+- Social media icons (LinkedIn & GitHub)
+- Smooth card fade-in animations with staggered delays
+- Clean, modular code structure
 
-## Expanding the ESLint configuration
+## 🚀 Live Demo
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Check it out here: [https://teamprofiles.netlify.app/]
+
+## 🛠️ Tech Stack
+
+- React
+- Vite
+- CSS (custom)
+- Netlify (for deployment)
+
+## 🧠 Learning Goals
+
+This project helped me practice:
+
+- CSS responsiveness and animation
+- Theme toggling using React hooks
+- Component props and styling logic
+- GitHub/Netlify integration
+
+## 📸 Preview
+
+![App Preview](./screenshot.png)
